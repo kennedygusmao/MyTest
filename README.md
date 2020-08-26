@@ -1,5 +1,11 @@
 # MyTest
 
+# Logs da aplicação
+
+https://kisslog.net
+usuário:emailparateste.dotnet@gmail.com 
+senha:teste@123
+
 # Necessário
 Baixar o SDK .Net Core versão 2.2.0 
 

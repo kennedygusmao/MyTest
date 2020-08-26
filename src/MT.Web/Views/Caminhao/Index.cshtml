@@ -1,0 +1,57 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model IEnumerable<CaminhaoDetalheViewModel>
+@*<partial name="_AvisoGeral"/>*@
+
+@await Html.PartialAsync("_AvisoGeral")
+
+
+<vc:Summary></vc:Summary>
+
+<p>
+    <a class="btn btn-info" asp-action="Cadastrar">Cadastrar Caminhão</a>
+</p>
+<table class="table table-hover">
+    <thead class="thead-dark">
+        <tr>
+            <th>
+                Modelo
+            </th>
+            <th>
+                Ano Modelo
+            </th>
+            <th>
+                Ano Fabricação
+            </th>
+
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null)
+        {
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Modelo)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.AnoModelo)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.AnoFabricacao)
+                    </td>
+
+                    <td class="text-right">
+                        <a class="btn btn-warning" asp-action="Detalhar" asp-route-id="@item.Id"><spam class="fa fa-search">detalhar</spam></a>
+                        <a class="btn btn-info" asp-action="Editar" asp-route-id="@item.Id"><spam class="fa fa-pencil-alt">editar</spam> </a>
+                        <a class="btn btn-danger" asp-action="Deletar" asp-route-id="@item.Id"><spam class="fa fa-trash">deletar</spam> </a>
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>

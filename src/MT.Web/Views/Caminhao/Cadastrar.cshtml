@@ -1,0 +1,43 @@
+﻿@model Caminhao
+
+@{
+    ViewData["Title"] = "Adicionar novo caminhão";
+}
+
+<h1>Cadastrar Caminhões</h1>
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Cadastrar">
+          
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label class="control-label">Ano Fabricação :</label>
+                <input type="number" class="form-control" asp-for="AnoFabricacao" />
+                <span asp-validation-for="AnoFabricacao" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Ano Modelo :</label>
+                <input type="number" class="form-control" asp-for="AnoModelo" />
+                <span asp-validation-for="AnoModelo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Modelo :</label>
+                <select asp-for="ModeloId"  class="form-control" asp-items="ViewBag.ModeloViewModel"></select>
+                             
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Cadastrar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+@section Scripts { 
+
+    @{
+       await Html.RenderPartialAsync("_ValidationScriptsPartial");
+     }
+
+}

@@ -1,0 +1,1418 @@
+{
+  "MT.Data.dll": {
+    "C:\\Users\\eganjos\\source\\MyTest\\src\\MT.Data\\Seed\\ModeloSeed.cs": {
+      "MT.Data.Seed.ModeloSeed": {
+        "System.Void MT.Data.Seed.ModeloSeed::ModeloSeedBuilder(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "10": 1,
+            "11": 1,
+            "13": 1,
+            "14": 1,
+            "15": 1,
+            "16": 1,
+            "17": 1,
+            "20": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\eganjos\\source\\MyTest\\src\\MT.Data\\Repository\\CaminhaoRepository.cs": {
+      "MT.Data.Repository.CaminhaoRepository": {
+        "System.Void MT.Data.Repository.CaminhaoRepository::.ctor(MT.Data.Context.BContext)": {
+          "Lines": {
+            "14": 7,
+            "15": 7,
+            "16": 7,
+            "17": 7
+          },
+          "Branches": []
+        }
+      },
+      "MT.Data.Repository.CaminhaoRepository/<ObterCaminhaoModelo>d__2": {
+        "System.Void MT.Data.Repository.CaminhaoRepository/<ObterCaminhaoModelo>d__2::MoveNext()": {
+          "Lines": {
+            "20": 2,
+            "21": 2,
+            "22": 2
+          },
+          "Branches": []
+        }
+      },
+      "MT.Data.Repository.CaminhaoRepository/<ObterCaminhaoModeloById>d__3": {
+        "System.Void MT.Data.Repository.CaminhaoRepository/<ObterCaminhaoModeloById>d__3::MoveNext()": {
+          "Lines": {
+            "25": 8,
+            "26": 8,
+            "27": 8
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\eganjos\\source\\MyTest\\src\\MT.Data\\Repository\\ModeloRepository.cs": {
+      "MT.Data.Repository.ModeloRepository": {
+        "System.Void MT.Data.Repository.ModeloRepository::.ctor(MT.Data.Context.BContext)": {
+          "Lines": {
+            "10": 8,
+            "11": 8,
+            "12": 8,
+            "13": 8
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\eganjos\\source\\MyTest\\src\\MT.Data\\Repository\\Repository.cs": {
+      "MT.Data.Repository.Repository`1": {
+        "System.Void MT.Data.Repository.Repository`1::Dispose()": {
+          "Lines": {
+            "63": 0,
+            "64": 0,
+            "65": 0
+          },
+          "Branches": [
+            {
+              "Line": 64,
+              "Offset": 8,
+              "EndOffset": 10,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 64,
+              "Offset": 8,
+              "EndOffset": 13,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void MT.Data.Repository.Repository`1::.ctor(MT.Data.Context.BContext)": {
+          "Lines": {
+            "18": 15,
+            "19": 15,
+            "20": 15,
+            "21": 15,
+            "22": 15
+          },
+          "Branches": []
+        }
+      },
+      "MT.Data.Repository.Repository`1/<Buscar>d__3": {
+        "System.Void MT.Data.Repository.Repository`1/<Buscar>d__3::MoveNext()": {
+          "Lines": {
+            "25": 2,
+            "26": 2,
+            "27": 2
+          },
+          "Branches": []
+        }
+      },
+      "MT.Data.Repository.Repository`1/<ObterPorId>d__4": {
+        "System.Void MT.Data.Repository.Repository`1/<ObterPorId>d__4::MoveNext()": {
+          "Lines": {
+            "30": 3,
+            "31": 3,
+            "32": 3
+          },
+          "Branches": []
+        }
+      },
+      "MT.Data.Repository.Repository`1/<ObterTodos>d__5": {
+        "System.Void MT.Data.Repository.Repository`1/<ObterTodos>d__5::MoveNext()": {
+          "Lines": {
+            "35": 2,
+            "36": 2,
+            "37": 2
+          },
+          "Branches": []
+        }
+      },
+      "MT.Data.Repository.Repository`1/<Adicionar>d__6": {
+        "System.Void MT.Data.Repository.Repository`1/<Adicionar>d__6::MoveNext()": {
+          "Lines": {
+            "40": 1,
+            "41": 1,
+            "42": 1,
+            "43": 1
+          },
+          "Branches": []
+        }
+      },
+      "MT.Data.Repository.Repository`1/<Atualizar>d__7": {
+        "System.Void MT.Data.Repository.Repository`1/<Atualizar>d__7::MoveNext()": {
+          "Lines": {
+            "46": 1,
+            "47": 1,
+            "48": 1,
+            "49": 1
+          },
+          "Branches": []
+        }
+      },
+      "MT.Data.Repository.Repository`1/<Remover>d__8": {
+        "System.Void MT.Data.Repository.Repository`1/<Remover>d__8::MoveNext()": {
+          "Lines": {
+            "52": 1,
+            "53": 1,
+            "54": 1,
+            "55": 1
+          },
+          "Branches": []
+        }
+      },
+      "MT.Data.Repository.Repository`1/<SaveChanges>d__9": {
+        "System.Void MT.Data.Repository.Repository`1/<SaveChanges>d__9::MoveNext()": {
+          "Lines": {
+            "58": 3,
+            "59": 3,
+            "60": 3
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\eganjos\\source\\MyTest\\src\\MT.Data\\Migrations\\20200825230107_createInitial.cs": {
+      "MT.Data.Migrations.createInitial": {
+        "System.Void MT.Data.Migrations.createInitial::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0
+          },
+          "Branches": []
+        },
+        "System.Void MT.Data.Migrations.createInitial::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\eganjos\\source\\MyTest\\src\\MT.Data\\Migrations\\20200825230107_createInitial.Designer.cs": {
+      "MT.Data.Migrations.createInitial": {
+        "System.Void MT.Data.Migrations.createInitial::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "16": 0,
+            "18": 0,
+            "19": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "92": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\eganjos\\source\\MyTest\\src\\MT.Data\\Migrations\\BContextModelSnapshot.cs": {
+      "MT.Data.Migrations.BContextModelSnapshot": {
+        "System.Void MT.Data.Migrations.BContextModelSnapshot::BuildModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "14": 0,
+            "16": 0,
+            "17": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "90": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\eganjos\\source\\MyTest\\src\\MT.Data\\Mapper\\AutomapperConfig.cs": {
+      "MT.Data.Mapper.AutomapperConfig": {
+        "System.Void MT.Data.Mapper.AutomapperConfig::.ctor()": {
+          "Lines": {
+            "9": 8,
+            "10": 8,
+            "12": 8,
+            "13": 8,
+            "14": 16,
+            "15": 8,
+            "16": 16,
+            "18": 8,
+            "19": 8,
+            "21": 8
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\eganjos\\source\\MyTest\\src\\MT.Data\\EntityConfig\\CaminhaoConfiguration.cs": {
+      "MT.Data.EntityConfig.CaminhaoConfiguration": {
+        "System.Void MT.Data.EntityConfig.CaminhaoConfiguration::Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<MT.Domain.Entities.Caminhao>)": {
+          "Lines": {
+            "15": 1,
+            "16": 1,
+            "18": 1,
+            "19": 1,
+            "22": 1,
+            "23": 1,
+            "26": 1,
+            "27": 1,
+            "29": 1,
+            "30": 1,
+            "34": 1,
+            "35": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\eganjos\\source\\MyTest\\src\\MT.Data\\EntityConfig\\ModeloConfiguration.cs": {
+      "MT.Data.EntityConfig.ModeloConfiguration": {
+        "System.Void MT.Data.EntityConfig.ModeloConfiguration::Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<MT.Domain.Entities.Modelo>)": {
+          "Lines": {
+            "11": 1,
+            "12": 1,
+            "14": 1,
+            "15": 1,
+            "16": 1,
+            "19": 1,
+            "20": 1,
+            "22": 1,
+            "23": 1,
+            "27": 1,
+            "28": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\eganjos\\source\\MyTest\\src\\MT.Data\\Context\\BContext.cs": {
+      "MT.Data.Context.BContext": {
+        "Microsoft.EntityFrameworkCore.DbSet`1<MT.Domain.Entities.Caminhao> MT.Data.Context.BContext::get_Caminhoes()": {
+          "Lines": {
+            "16": 33
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<MT.Domain.Entities.Modelo> MT.Data.Context.BContext::get_Modelos()": {
+          "Lines": {
+            "17": 46
+          },
+          "Branches": []
+        },
+        "System.Void MT.Data.Context.BContext::OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "20": 1,
+            "21": 5,
+            "22": 3,
+            "23": 13,
+            "24": 1,
+            "26": 1,
+            "28": 8,
+            "31": 1,
+            "32": 1,
+            "33": 1
+          },
+          "Branches": [
+            {
+              "Line": 21,
+              "Offset": 87,
+              "EndOffset": 57,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 21,
+              "Offset": 87,
+              "EndOffset": 89,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 28,
+              "Offset": 202,
+              "EndOffset": 181,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            },
+            {
+              "Line": 28,
+              "Offset": 202,
+              "EndOffset": 204,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Threading.Tasks.Task`1<System.Int32> MT.Data.Context.BContext::SaveChangesAsync(System.Threading.CancellationToken)": {
+          "Lines": {
+            "36": 3,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "50": 3,
+            "51": 3
+          },
+          "Branches": [
+            {
+              "Line": 37,
+              "Offset": 147,
+              "EndOffset": 57,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 39,
+              "Offset": 76,
+              "EndOffset": 78,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 39,
+              "Offset": 76,
+              "EndOffset": 107,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 44,
+              "Offset": 118,
+              "EndOffset": 120,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 44,
+              "Offset": 118,
+              "EndOffset": 140,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 37,
+              "Offset": 147,
+              "EndOffset": 149,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 3
+            }
+          ]
+        },
+        "System.Void MT.Data.Context.BContext::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions`1<MT.Data.Context.BContext>)": {
+          "Lines": {
+            "13": 24
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "MT.Domain.dll": {
+    "C:\\Users\\eganjos\\source\\MyTest\\src\\MT.Domain\\Entities\\Caminhao.cs": {
+      "MT.Domain.Entities.Caminhao": {
+        "System.Int32 MT.Domain.Entities.Caminhao::get_AnoFabricacao()": {
+          "Lines": {
+            "7": 122
+          },
+          "Branches": []
+        },
+        "System.Int32 MT.Domain.Entities.Caminhao::get_AnoModelo()": {
+          "Lines": {
+            "8": 125
+          },
+          "Branches": []
+        },
+        "System.Guid MT.Domain.Entities.Caminhao::get_ModeloId()": {
+          "Lines": {
+            "9": 247
+          },
+          "Branches": []
+        },
+        "MT.Domain.Entities.Modelo MT.Domain.Entities.Caminhao::get_Modelo()": {
+          "Lines": {
+            "10": 182
+          },
+          "Branches": []
+        },
+        "System.Void MT.Domain.Entities.Caminhao::.ctor()": {
+          "Lines": {
+            "12": 22,
+            "13": 22,
+            "14": 22
+          },
+          "Branches": []
+        },
+        "System.Void MT.Domain.Entities.Caminhao::.ctor(System.Guid,System.Int32,System.Int32,System.DateTime,MT.Domain.Entities.Modelo)": {
+          "Lines": {
+            "16": 14,
+            "17": 14,
+            "18": 14,
+            "19": 14,
+            "20": 14,
+            "21": 14,
+            "22": 14,
+            "25": 14
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\eganjos\\source\\MyTest\\src\\MT.Domain\\Entities\\EntityBase.cs": {
+      "MT.Domain.Entities.EntityBase": {
+        "System.Guid MT.Domain.Entities.EntityBase::get_Id()": {
+          "Lines": {
+            "16": 992
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.DateTime> MT.Domain.Entities.EntityBase::get__createAt()": {
+          "Lines": {
+            "18": 418
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.DateTime> MT.Domain.Entities.EntityBase::get_UpdateAt()": {
+          "Lines": {
+            "19": 308
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.DateTime> MT.Domain.Entities.EntityBase::get_CreateAt()": {
+          "Lines": {
+            "23": 966
+          },
+          "Branches": []
+        },
+        "System.Void MT.Domain.Entities.EntityBase::set_CreateAt(System.Nullable`1<System.DateTime>)": {
+          "Lines": {
+            "24": 288
+          },
+          "Branches": [
+            {
+              "Line": 24,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 36
+            },
+            {
+              "Line": 24,
+              "Offset": 9,
+              "EndOffset": 14,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 60
+            }
+          ]
+        },
+        "System.Void MT.Domain.Entities.EntityBase::.ctor()": {
+          "Lines": {
+            "10": 123,
+            "11": 123,
+            "12": 123,
+            "13": 123
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\eganjos\\source\\MyTest\\src\\MT.Domain\\Entities\\Modelo.cs": {
+      "MT.Domain.Entities.Modelo": {
+        "System.String MT.Domain.Entities.Modelo::get_Descricao()": {
+          "Lines": {
+            "6": 302
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\eganjos\\source\\MyTest\\src\\MT.Domain\\Dtos\\CaminhaoDetalheDto.cs": {
+      "MT.Domain.Dtos.CaminhaoDetalheDto": {
+        "System.Guid MT.Domain.Dtos.CaminhaoDetalheDto::get_Id()": {
+          "Lines": {
+            "8": 17
+          },
+          "Branches": []
+        },
+        "System.Int32 MT.Domain.Dtos.CaminhaoDetalheDto::get_AnoFabricacao()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 MT.Domain.Dtos.CaminhaoDetalheDto::get_AnoModelo()": {
+          "Lines": {
+            "10": 10
+          },
+          "Branches": []
+        },
+        "System.String MT.Domain.Dtos.CaminhaoDetalheDto::get_Modelo()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.Guid MT.Domain.Dtos.CaminhaoDetalheDto::get_ModeloId()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\eganjos\\source\\MyTest\\src\\MT.Domain\\Dtos\\CaminhaoDto.cs": {
+      "MT.Domain.Dtos.CaminhaoDto": {
+        "System.Guid MT.Domain.Dtos.CaminhaoDto::get_Id()": {
+          "Lines": {
+            "8": 8
+          },
+          "Branches": []
+        },
+        "System.Int32 MT.Domain.Dtos.CaminhaoDto::get_AnoFabricacao()": {
+          "Lines": {
+            "9": 7
+          },
+          "Branches": []
+        },
+        "System.Int32 MT.Domain.Dtos.CaminhaoDto::get_AnoModelo()": {
+          "Lines": {
+            "10": 7
+          },
+          "Branches": []
+        },
+        "System.Guid MT.Domain.Dtos.CaminhaoDto::get_ModeloId()": {
+          "Lines": {
+            "11": 10
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\eganjos\\source\\MyTest\\src\\MT.Domain\\Dtos\\ModeloDto.cs": {
+      "MT.Domain.Dtos.ModeloDto": {
+        "System.String MT.Domain.Dtos.ModeloDto::get_Descricao()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "MT.Service.dll": {
+    "C:\\Users\\eganjos\\source\\MyTest\\src\\MT.Service\\Validations\\CaminhaoValidation.cs": {
+      "MT.Service.Validations.CaminhaoValidation": {
+        "System.Void MT.Service.Validations.CaminhaoValidation::.ctor()": {
+          "Lines": {
+            "9": 3,
+            "10": 3,
+            "11": 3,
+            "12": 3,
+            "13": 3,
+            "16": 3,
+            "17": 3,
+            "18": 3,
+            "22": 3,
+            "23": 6,
+            "24": 3,
+            "25": 6,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 3,
+            "30": 3,
+            "31": 6,
+            "32": 4,
+            "33": 4,
+            "34": 4,
+            "35": 3,
+            "36": 6,
+            "37": 0,
+            "38": 3,
+            "39": 3,
+            "40": 6,
+            "41": 0,
+            "42": 3,
+            "43": 6,
+            "44": 0,
+            "45": 3,
+            "46": 6,
+            "47": 3
+          },
+          "Branches": [
+            {
+              "Line": 25,
+              "Offset": 27,
+              "EndOffset": 29,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 27,
+              "EndOffset": 48,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 3
+            },
+            {
+              "Line": 31,
+              "Offset": 67,
+              "EndOffset": 69,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 3
+            },
+            {
+              "Line": 31,
+              "Offset": 67,
+              "EndOffset": 101,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 31,
+              "Offset": 104,
+              "EndOffset": 106,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 31,
+              "Offset": 104,
+              "EndOffset": 125,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 3
+            },
+            {
+              "Line": 36,
+              "Offset": 136,
+              "EndOffset": 138,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 36,
+              "Offset": 136,
+              "EndOffset": 155,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 3
+            },
+            {
+              "Line": 40,
+              "Offset": 180,
+              "EndOffset": 182,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 40,
+              "Offset": 180,
+              "EndOffset": 199,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 3
+            },
+            {
+              "Line": 43,
+              "Offset": 220,
+              "EndOffset": 222,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 43,
+              "Offset": 220,
+              "EndOffset": 245,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 3
+            },
+            {
+              "Line": 43,
+              "Offset": 250,
+              "EndOffset": 252,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 43,
+              "Offset": 250,
+              "EndOffset": 269,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 3
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\eganjos\\source\\MyTest\\src\\MT.Service\\Service\\BaseService.cs": {
+      "MT.Service.Service.BaseService": {
+        "System.Void MT.Service.Service.BaseService::Notificar(FluentValidation.Results.ValidationResult)": {
+          "Lines": {
+            "20": 1,
+            "21": 5,
+            "22": 1,
+            "23": 1,
+            "24": 1,
+            "25": 1
+          },
+          "Branches": [
+            {
+              "Line": 21,
+              "Offset": 44,
+              "EndOffset": 16,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 21,
+              "Offset": 44,
+              "EndOffset": 46,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Void MT.Service.Service.BaseService::Notificar(System.String)": {
+          "Lines": {
+            "28": 2,
+            "29": 2,
+            "30": 2
+          },
+          "Branches": []
+        },
+        "System.Boolean MT.Service.Service.BaseService::ExecutarValidacao(TV,TE)": {
+          "Lines": {
+            "33": 3,
+            "34": 3,
+            "36": 3,
+            "37": 2,
+            "38": 2,
+            "41": 1,
+            "43": 1,
+            "44": 3
+          },
+          "Branches": [
+            {
+              "Line": 36,
+              "Offset": 22,
+              "EndOffset": 24,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 36,
+              "Offset": 22,
+              "EndOffset": 29,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Void MT.Service.Service.BaseService::.ctor(MT.Service.Interface.INotificador)": {
+          "Lines": {
+            "14": 8,
+            "15": 8,
+            "16": 8,
+            "17": 8
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\eganjos\\source\\MyTest\\src\\MT.Service\\Service\\CaminhaoService.cs": {
+      "MT.Service.Service.CaminhaoService": {
+        "System.Void MT.Service.Service.CaminhaoService::Dispose()": {
+          "Lines": {
+            "173": 0,
+            "174": 0,
+            "176": 0
+          },
+          "Branches": [
+            {
+              "Line": 174,
+              "Offset": 8,
+              "EndOffset": 10,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 174,
+              "Offset": 8,
+              "EndOffset": 13,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void MT.Service.Service.CaminhaoService::.ctor(MT.Service.Interface.INotificador,MT.Domain.Interfaces.Repository.ICaminhaoRepository,MT.Domain.Interfaces.Repository.IModeloRepository,AutoMapper.IMapper,KissLog.ILogger)": {
+          "Lines": {
+            "29": 7,
+            "30": 7,
+            "31": 7,
+            "32": 7,
+            "33": 7,
+            "34": 7,
+            "35": 7,
+            "37": 7
+          },
+          "Branches": []
+        }
+      },
+      "MT.Service.Service.CaminhaoService/<Adicionar>d__6": {
+        "System.Void MT.Service.Service.CaminhaoService/<Adicionar>d__6::MoveNext()": {
+          "Lines": {
+            "41": 1,
+            "42": 1,
+            "44": 1,
+            "46": 1,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "53": 1,
+            "55": 1,
+            "56": 0,
+            "57": 0,
+            "60": 1,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "69": 1,
+            "70": 1,
+            "71": 1,
+            "72": 1,
+            "73": 1,
+            "74": 1,
+            "75": 1
+          },
+          "Branches": [
+            {
+              "Line": 46,
+              "Offset": 241,
+              "EndOffset": 243,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 46,
+              "Offset": 241,
+              "EndOffset": 323,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 55,
+              "Offset": 380,
+              "EndOffset": 382,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 55,
+              "Offset": 380,
+              "EndOffset": 390,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            },
+            {
+              "Line": 60,
+              "Offset": 557,
+              "EndOffset": 559,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 60,
+              "Offset": 557,
+              "EndOffset": 644,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "MT.Service.Service.CaminhaoService/<Atualizar>d__7": {
+        "System.Void MT.Service.Service.CaminhaoService/<Atualizar>d__7::MoveNext()": {
+          "Lines": {
+            "78": 2,
+            "79": 2,
+            "81": 2,
+            "83": 2,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "90": 2,
+            "92": 2,
+            "93": 1,
+            "94": 1,
+            "97": 1,
+            "100": 1,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "109": 1,
+            "110": 1,
+            "111": 1,
+            "112": 2
+          },
+          "Branches": [
+            {
+              "Line": 83,
+              "Offset": 222,
+              "EndOffset": 224,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 83,
+              "Offset": 222,
+              "EndOffset": 299,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            },
+            {
+              "Line": 92,
+              "Offset": 346,
+              "EndOffset": 348,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 92,
+              "Offset": 346,
+              "EndOffset": 356,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            },
+            {
+              "Line": 100,
+              "Offset": 513,
+              "EndOffset": 515,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 100,
+              "Offset": 513,
+              "EndOffset": 595,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "MT.Service.Service.CaminhaoService/<ObterPorId>d__8": {
+        "System.Void MT.Service.Service.CaminhaoService/<ObterPorId>d__8::MoveNext()": {
+          "Lines": {
+            "117": 7,
+            "118": 7,
+            "120": 7,
+            "121": 1,
+            "122": 1,
+            "123": 1,
+            "124": 1,
+            "127": 6,
+            "130": 7
+          },
+          "Branches": [
+            {
+              "Line": 120,
+              "Offset": 199,
+              "EndOffset": 201,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 120,
+              "Offset": 199,
+              "EndOffset": 277,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 6
+            }
+          ]
+        }
+      },
+      "MT.Service.Service.CaminhaoService/<>c": {
+        "MT.Domain.Dtos.CaminhaoDetalheDto MT.Service.Service.CaminhaoService/<>c::<ObterTodos>b__9_0(MT.Domain.Entities.Caminhao)": {
+          "Lines": {
+            "137": 5,
+            "138": 5,
+            "139": 5,
+            "140": 5,
+            "141": 5,
+            "142": 5,
+            "143": 5,
+            "144": 5
+          },
+          "Branches": []
+        }
+      },
+      "MT.Service.Service.CaminhaoService/<ObterTodos>d__9": {
+        "System.Void MT.Service.Service.CaminhaoService/<ObterTodos>d__9::MoveNext()": {
+          "Lines": {
+            "133": 2,
+            "134": 2,
+            "136": 2,
+            "148": 2,
+            "149": 2
+          },
+          "Branches": []
+        }
+      },
+      "MT.Service.Service.CaminhaoService/<Remover>d__10": {
+        "System.Void MT.Service.Service.CaminhaoService/<Remover>d__10::MoveNext()": {
+          "Lines": {
+            "152": 1,
+            "153": 1,
+            "155": 1,
+            "156": 1,
+            "158": 1,
+            "159": 1,
+            "161": 1,
+            "162": 1,
+            "167": 0,
+            "169": 0,
+            "170": 1
+          },
+          "Branches": [
+            {
+              "Line": 155,
+              "Offset": 325,
+              "EndOffset": 330,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 155,
+              "Offset": 325,
+              "EndOffset": 557,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\eganjos\\source\\MyTest\\src\\MT.Service\\Service\\ModeloService.cs": {
+      "MT.Service.Service.ModeloService": {
+        "System.Void MT.Service.Service.ModeloService::.ctor(MT.Service.Interface.INotificador,MT.Domain.Interfaces.Repository.IModeloRepository,AutoMapper.IMapper,KissLog.ILogger)": {
+          "Lines": {
+            "21": 1,
+            "22": 1,
+            "23": 1,
+            "24": 1,
+            "25": 1,
+            "26": 1,
+            "27": 1
+          },
+          "Branches": []
+        }
+      },
+      "MT.Service.Service.ModeloService/<ObterModelos>d__5": {
+        "System.Void MT.Service.Service.ModeloService/<ObterModelos>d__5::MoveNext()": {
+          "Lines": {
+            "30": 1,
+            "31": 1,
+            "32": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\eganjos\\source\\MyTest\\src\\MT.Service\\Notificacoes\\Notificacao.cs": {
+      "MT.Service.Notificacoes.Notificacao": {
+        "System.String MT.Service.Notificacoes.Notificacao::get_Mensagem()": {
+          "Lines": {
+            "10": 4
+          },
+          "Branches": []
+        },
+        "System.Void MT.Service.Notificacoes.Notificacao::.ctor(System.String)": {
+          "Lines": {
+            "5": 2,
+            "6": 2,
+            "7": 2,
+            "8": 2
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\eganjos\\source\\MyTest\\src\\MT.Service\\Notificacoes\\Notificador.cs": {
+      "MT.Service.Notificacoes.Notificador": {
+        "System.Void MT.Service.Notificacoes.Notificador::Handle(MT.Service.Notificacoes.Notificacao)": {
+          "Lines": {
+            "19": 2,
+            "20": 2,
+            "21": 2
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<MT.Service.Notificacoes.Notificacao> MT.Service.Notificacoes.Notificador::ObterNotificacoes()": {
+          "Lines": {
+            "24": 3,
+            "25": 3,
+            "26": 3
+          },
+          "Branches": []
+        },
+        "System.Boolean MT.Service.Notificacoes.Notificador::TemNotificacao()": {
+          "Lines": {
+            "29": 3,
+            "30": 3,
+            "31": 3
+          },
+          "Branches": []
+        },
+        "System.Void MT.Service.Notificacoes.Notificador::.ctor()": {
+          "Lines": {
+            "13": 8,
+            "14": 8,
+            "15": 8,
+            "16": 8
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}

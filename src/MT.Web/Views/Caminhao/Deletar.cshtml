@@ -1,0 +1,44 @@
+﻿@model Caminhao
+
+@{
+    ViewData["Title"] = "Deletar caminhão";
+}
+
+<h1>Editar Caminhões</h1>
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="DeletarCaminhao">
+
+            <input type="hidden" asp-for="Id" />
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+
+            <div class="form-group">
+                <label class="control-label">Ano Fabricação :</label>
+                <input type="number" class="form-control" asp-for="AnoFabricacao" disabled="disabled" />
+                <span asp-validation-for="AnoFabricacao" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Ano Modelo :</label>
+                <input type="number" class="form-control" asp-for="AnoModelo" disabled="disabled" />
+                <span asp-validation-for="AnoModelo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Modelo :</label>
+                <select asp-for="ModeloId" class="form-control" asp-items="ViewBag.ModeloViewModel" disabled="disabled"></select>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Deletar" class="btn btn-danger" />
+            </div>
+        </form>
+    </div>
+</div>
+@section Scripts {
+
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+}

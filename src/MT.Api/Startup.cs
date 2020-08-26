@@ -76,9 +76,10 @@ namespace MT.Api
            
                 app.UseHsts();
             }
-            //app.UseKissLogMiddleware(options => {
-            //    ConfigureKissLog(options);
-            //});
+            app.UseKissLogMiddleware(options =>
+            {
+                ConfigureKissLog(options);
+            });
 
             app.UseLoggingConfiguration();
 

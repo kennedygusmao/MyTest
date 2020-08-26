@@ -25,6 +25,8 @@ $ cd src\MT.Api
 $ dotnet build
 $ dotnet run
 ```
+exemplo para visualizar o projeto MT.Api
+https://localhost:5001/swagger/index.html
 
 Executar o seguinte processo para o projeto MT.Web
 Exemplo
